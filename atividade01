@@ -1,0 +1,5 @@
+Atividade 01:
+nome = input("Digite o seu nome em MAIÚSCULO: ").lower()
+print(nome.lower())
+nome2 = "INFINITY"
+print(nome2.lower())
