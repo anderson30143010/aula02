@@ -1,0 +1,7 @@
+Atividade 02:
+"""nome = input("Digite o seu nome em minúsculo: ").upper()
+print(nome.upper())"""
+
+DETALHE para a primeira letra em maiúsculo
+"""nome = input("Digite o seu nome em minúsculo: ").title()
+print(nome)"""
