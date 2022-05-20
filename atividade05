@@ -1,0 +1,11 @@
+exp1 = 2 == 3
+print(exp1)
+
+exp2 = 7 > 3
+print(exp2)
+
+exp3 = exp1 and exp2
+print(exp3)
+
+exp4 = exp1 or exp2
+print(exp4)
