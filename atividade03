@@ -1,0 +1,3 @@
+numero = int(input("Digite um valor negativo"))
+
+print(abs(numero))
