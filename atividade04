@@ -1,0 +1,6 @@
+n1 = int(input("digite um numero inteiro positivo"))
+n2 = int(input("digite um segundo numero inteiro positivo"))
+soma = n1+n2
+print(soma)
+print(f" A soma do {n1} + {n2} é {soma}")
+
