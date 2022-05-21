@@ -1,0 +1,12 @@
+numero = float(input("Digite sua temperatura "))
+print(numero)
+if numero <= 37:
+    print (" Temperatura normal ")
+elif numero <= 37.8:
+    print(" Febril ")
+elif numero <= 38.5:
+    print(" Febre Leve ")
+elif numero <= 39.4:
+    print(" Febre Moderada ")
+else:
+    print(" Febre Grave ")
