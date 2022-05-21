@@ -1,0 +1,17 @@
+peso = int(input("Digite o peso "))
+
+altura = float(input("Digite a altura "))
+
+imc = peso / altura**2
+print(round(imc, 1))
+
+if imc <= 18.5:
+    print (" abaixo do peso ")
+elif imc >= 18.5 and imc <= 24.9:
+    print(" normal ")
+elif imc >= 25 and imc <= 29.9:
+    print(" sobrepeso ")
+elif imc >= 30 and imc <= 39.9:
+    print(" obesidade tipo I ")
+else:
+    print("Alerta: obesidade mórbida")
