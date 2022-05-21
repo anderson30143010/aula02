@@ -1,0 +1,11 @@
+numero = int(input("Digite a velocidade "))
+
+
+if numero <= 60:
+    print ("Velocidade permitida")
+elif numero > 60 and numero < 80:
+    print("Alta velocidade")
+elif numero > 80 and numero < 120:
+    print("Muito Rapido")
+else:
+    print("VUADO")
